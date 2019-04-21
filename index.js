@@ -12,9 +12,10 @@ function scuberGreetingForFeet(feet) {
   function ternaryCheckCity(city) {
     switch (city) {
       case 'NYC':
-        return 'Ok, sounds good.'
-        break;
+          return 'Ok, sounds good.'
+          break;
       default:
-        return 'No go.'
+          return 'No go.'
+          break;
+      }
     }
-  }
